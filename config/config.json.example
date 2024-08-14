@@ -1,0 +1,55 @@
+{
+    "servers": [
+      {
+        "app": "MyApp1"
+        "ip": "server1_ip",
+        "port": 22,
+        "username": "server1_username",
+        "pem_file_path": "path/to/server1.pem",
+        "log_file_dir": "/path/to/server1/log/files/",
+        "local_download_dir": "/path/to/local/download/dir/server1/",
+        "log_filename": "ABC-YYYYMMDD.log",
+        "start_time": "00:30",
+        "end_time": "01:30",
+        "timezone": "Asia/Tokyo",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "error_keywords": ["error", "failed", "exception"],
+        "ignore_keywords": ["failed food supply"]
+      },
+      {
+        "app": "MyApp2"
+        "ip": "server2_ip",
+        "port": 22,
+        "username": "server2_username",
+        "pem_file_path": "path/to/server2.pem",
+        "log_file_dir": "/path/to/server2/log/files/",
+        "local_download_dir": "/path/to/local/download/dir/server2/",
+        "log_filename": "ABC-YYYYMMDD.log",
+        "start_time": "00:30",
+        "end_time": "01:30",
+        "timezone": "Europe/London",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "error_keywords": ["error", "failed", "exception"],
+        "ignore_keywords": ["failed food supply"]
+      },
+      {
+        "app": "MyApp3"
+        "ip": "server3_ip",
+        "port": 22,
+        "username": "server3_username",
+        "pem_file_path": "path/to/server3.pem",
+        "log_file_dir": "/path/to/server3/log/files/",
+        "local_download_dir": "/path/to/local/download/dir/server3/",
+        "log_filename": "ABC-YYYYMMDD.log",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "timezone": "America/New_York",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "error_keywords": ["error", "failed", "exception"],
+        "ignore_keywords": ["failed food supply"]
+      }
+    ],
+    "aws_region": "your_aws_region",
+    "sns_topic_arn": "your_sns_topic_arn"
+  }
+  
